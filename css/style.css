@@ -1,14 +1,14 @@
-body { 
+body {
     font-style: normal;
     font-family: sans-serif;
     background-color: aqua;
-    background-image: url(../image/imager.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     column-span: all;
     color: azure;
     column-rule-style: solid;
 }
+
 p.un {
     border-width: thick;
     border: bold;
@@ -19,14 +19,16 @@ p.un {
     padding: 0;
     margin: 0;
     border: 40px;
-    overflow: auto;   
+    overflow: auto;
 }
+
 #column {
     text-align: center;
     float: right;
     color: aqua;
     float: right;
 }
+
 p.afri {
     width: 90%;
     color: green;
@@ -34,12 +36,15 @@ p.afri {
     background-image: url(../image/image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-.header, .footer {
+
+.footer {
     background-color: grey;
     color: white;
     padding: 15px;
 }
 
-
+h1.header {
+    background-color: green;
+    text-align: center;
+}
